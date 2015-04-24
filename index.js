@@ -1,4 +1,7 @@
-module.exports = drawBuffer;
+module.exports = {
+  canvas: drawBuffer,
+  svg: require('./svg.js')
+};
 
 function drawBuffer (canvas, buffer, color) {
   var ctx = canvas.getContext('2d');

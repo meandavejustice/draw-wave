@@ -1,10 +1,11 @@
 {
   "name": "draw-wave",
-  "version": "1.0.0",
-  "description": "draw a waveform to canvas from an audiobuffer",
+  "version": "2.0.0",
+  "description": "draw a waveform to canvas or svg from an audiobuffer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "browser-test": "beefy test.js && open http://localhost:9966",
+    "test": "echo \"Run 'npm run browser-test' for visual test \" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -12,6 +13,10 @@
   },
   "keywords": [
     "audio",
+    "svg",
+    "web audio",
+    "dsp",
+    "visual",
     "canvas",
     "browser",
     "wave",
@@ -23,5 +28,11 @@
   "bugs": {
     "url": "https://github.com/meandavejustice/draw-wave/issues"
   },
-  "homepage": "https://github.com/meandavejustice/draw-wave"
+  "homepage": "https://github.com/meandavejustice/draw-wave",
+  "dependencies": {
+    "svg-create-element": "^1.0.0"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.5"
+  }
 }
