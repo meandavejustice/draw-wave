@@ -22,6 +22,6 @@ document.appendChild(waveSVG);
 ```
 This will look produce something like this
 ![](./girlfriend.png)
-(here is the song https://www.youtube.com/watch?v=GWMCSimyD6I)
+[here is the song](https://www.youtube.com/watch?v=GWMCSimyD6I)
 
 [og canvas version](https://github.com/cwilso/Audio-Buffer-Draw)
