@@ -12,7 +12,7 @@ container.appendChild(canvas);
 
 var src = new AudioSource({
   context: new AudioContext(),
-  url: 'girlfriend.mp3'
+  src: 'girlfriend.mp3'
 });
 
 src.load(function() {
